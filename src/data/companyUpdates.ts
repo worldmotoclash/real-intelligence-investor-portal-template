@@ -3,66 +3,66 @@ import { CompanyUpdate } from '../types/companyUpdates';
 
 export const companyUpdates: CompanyUpdate[] = [
   {
-    title: "World Moto Clash Investment Opportunity in 7 Minutes",
+    title: "Investment Opportunity Overview in 7 Minutes",
     date: "Jul 16, 2025",
-    description: "Get a comprehensive overview of the WMC investment opportunity in just 7 minutes with our latest podcast episode.",
+    description: "Get a comprehensive overview of our investment opportunity in just 7 minutes with our latest podcast episode.",
     category: "Content Update",
-    documentUrl: "https://www.buzzsprout.com/2471755/episodes/17491005-world-moto-clash-investment-opportunity-in-7-minutes",
+    documentUrl: "https://example-podcast.com/episodes/investment-opportunity-overview",
     documentType: "audio",
-    embedCode: `<div id="buzzsprout-player-17491005"></div><script src="https://www.buzzsprout.com/2471755/episodes/17491005-world-moto-clash-investment-opportunity-in-7-minutes.js?container_id=buzzsprout-player-17491005&player=small" type="text/javascript" charset="utf-8"></script>`
+    embedCode: `<!-- Replace with your podcast embed code -->`
   },
   {
-    title: "Investment Opportunity for a WMC Investor",
+    title: "Investment Opportunity Deep Dive",
     date: "Jul 5, 2025",
-    description: "Listen to our latest podcast episode discussing the exciting investment opportunity with WMC Motorsports.",
+    description: "Listen to our latest podcast episode discussing the exciting investment opportunity with our company.",
     category: "Content Update",
-    documentUrl: "https://www.buzzsprout.com/2471755/episodes/17463406-investment-opportunity-for-a-wmc-investor",
+    documentUrl: "https://example-podcast.com/episodes/investment-deep-dive",
     documentType: "audio",
-    embedCode: `<div id="buzzsprout-player-17463406"></div><script src="https://www.buzzsprout.com/2471755/episodes/17463406-investment-opportunity-for-a-wmc-investor.js?container_id=buzzsprout-player-17463406&player=small" type="text/javascript" charset="utf-8"></script>`
+    embedCode: `<!-- Replace with your podcast embed code -->`
   },
   {
     title: "New Executive Summary Deck",
     date: "Jun 10, 2025",
     description: "We've released an updated Executive Summary Deck with the latest information about our investment opportunity and business strategy.",
     category: "Content Update",
-    documentUrl: "https://drive.google.com/file/d/1LZTSnrgpVAVZjq9DAORgzQaLpNG0R28v/view?usp=drive_link",
+    documentUrl: "https://example-docs.com/executive-summary-deck",
     documentType: "document"
   },
   {
-    title: "New Team Owners Video added to the portal",
+    title: "New Leadership Team Video",
     date: "Apr 10, 2025",
-    description: "A new video featuring WMC Team Owners has been uploaded to the investor portal.",
+    description: "A new video featuring our leadership team has been uploaded to the investor portal.",
     category: "Content Update",
-    documentUrl: "https://drive.google.com/file/d/139MfNgnY1G-cZ2GrK-omxtxUilLmZNtF/preview",
+    documentUrl: "https://example-videos.com/leadership-team-video",
     documentType: "video"
   },
   {
-    title: "WMC Motorsports Reimagined!",
+    title: "Company Vision Reimagined!",
     date: "Apr 2, 2025",
-    description: "Experience the future of motorsports with our comprehensive video showcasing WMC's innovative approach to racing entertainment.",
+    description: "Experience our innovative vision with our comprehensive video showcasing our strategic approach to market leadership.",
     category: "Content Update",
-    documentUrl: "https://drive.google.com/file/d/1ZDIK7ACuHd8GRvIXtiVBabDx3D3Aski7/preview",
+    documentUrl: "https://example-videos.com/company-vision-video",
     documentType: "video"
   },
   {
-    title: "Elevation Onboarding Started",
+    title: "Strategic Partnership Onboarding Started",
     date: "Mar 28, 2025",
-    description: "We have commenced the onboarding process for the Elevation project, marking a significant milestone in our strategic initiatives.",
+    description: "We have commenced the onboarding process for our strategic partnership, marking a significant milestone in our growth initiatives.",
     category: "Partnership"
   },
   {
-    title: "Elevation Partnership Signed",
+    title: "Key Partnership Agreement Signed",
     date: "Mar 15, 2025",
-    description: "WMC has officially signed a partnership agreement with Elevation, expanding our collaborative opportunities.",
+    description: "Our company has officially signed a partnership agreement with a key strategic partner, expanding our collaborative opportunities.",
     category: "Partnership",
-    url: "https://www.elevationgroup.com/",
-    documentUrl: "https://docs.google.com/document/d/1AwVd-pCxJ1q0bTWjwCiSRjPU7XTOzLn4/preview"
+    url: "https://example-partner.com/",
+    documentUrl: "https://example-docs.com/partnership-agreement"
   },
   {
     title: "Investor Portal Launched",
     date: "Feb 22, 2025",
     description: "We are excited to announce the launch of our new Investor Portal, providing enhanced access and insights for our investors.",
     category: "Technology",
-    url: "https://inves.worldmotoclash.com"
+    url: "https://portal.example-company.com"
   }
 ];

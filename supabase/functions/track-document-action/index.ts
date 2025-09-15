@@ -75,7 +75,10 @@ async function submitToTrackingEngine(contactId: string, documentUrl: string, ac
     formData.append('text_Document_Title__c', documentTitle);
   }
 
-  const response = await fetch('https://realintelligence.com/customers/expos/00D5e000000HEcP/exhibitors/engine/w2x-engine.php', {
+  // Replace with your tracking service endpoint
+  const trackingEndpoint = Deno.env.get('TRACKING_SERVICE_ENDPOINT') || 'https://your-tracking-service.com/api/track';
+  
+  const response = await fetch(trackingEndpoint, {
     method: 'POST',
     body: formData,
   });
