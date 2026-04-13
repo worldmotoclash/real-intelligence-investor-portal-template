@@ -279,7 +279,7 @@ const LoginFormComponent: React.FC = () => {
           <h3 className="font-medium text-amber-800 mb-2">Location Verification Required</h3>
           <p className="text-amber-700 text-sm">
             We detected a login attempt from a new location
-            {locationInfo && locationInfo.city !== 'Unknown' ?  (${locationInfo.city}, ${locationInfo.country}) : ''}.
+            {locationInfo && locationInfo.city !== 'Unknown' ? ` (${locationInfo.city}, ${locationInfo.country})` : ''}.
             For your security, we've sent a verification 
             email to your registered email address with details about the new location. 
             Please check your inbox and follow the verification instructions.
