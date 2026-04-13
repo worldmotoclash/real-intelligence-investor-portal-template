@@ -248,7 +248,7 @@ const LoginFormComponent: React.FC = () => {
       } else if (error.message && error.message.includes('Email not found')) {
         toast.error('Your Google account email is not registered as an approved investor. Please contact us for access.');
       } else {
-        toast.error(Google login failed: ${error.message || 'Unknown error'});
+        toast.error(`Google login failed: ${error.message || 'Unknown error'}`);
       }
     } finally {
       setIsGoogleLoading(false);
